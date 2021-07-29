@@ -1,0 +1,72 @@
+﻿<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="radio.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="connectionText">
+        [Radio] <span id="errorText">Not Connected</span>
+    </div>
+
+    <div class="nolink" id="radio">
+        <img
+            id="img"
+            src="images/radio_final.png"
+            width="225px"
+            height="550px"
+        />
+        <div id="panicBtn"></div>
+        <div id="chUpBtn"></div>
+        <div id="chDownBtn"></div>
+        <div id="pwrBtn"></div>
+        <div id="nolink">no link</div>
+        <div id="radioDisplay">
+            <div id="statusText">
+                <div id="time">22:22z</div>
+                <div id="talkAround">|&rarr;|</div>
+                <img
+                    src="images/battery.png"
+                    width="20px"
+                    height="15px"
+                    id="battery"
+                />
+                <div class="statusBar batteryBar" id="batteryBar1"></div>
+                <div class="statusBar batteryBar" id="batteryBar2"></div>
+                <div class="statusBar batteryBar" id="batteryBar3"></div>
+                <div id="scanning">Z</div>
+                <img
+                    id="tower"
+                    src="images/tower.png"
+                    width="10px"
+                    height="15px"
+                />
+                <div class="statusBar" id="towerBar1"></div>
+                <div class="statusBar" id="towerBar2"></div>
+                <div class="statusBar" id="towerBar3"></div>
+            </div>
+
+            <div id="topText"></div>
+
+            <div id="chText"></div>
+
+            <div id="rangeText">Out of range</div>
+
+            <div id="btmText">
+                <div id="btm1Text" class="btmText"></div>
+                <div id="btm2Text" class="btmText"></div>
+                <div id="btm3Text" class="btmText"></div>
+            </div>
+        </div>
+
+        <div class="softBtn" id="softBtn1"></div>
+        <div class="softBtn" id="softBtn2"></div>
+        <div class="softBtn" id="softBtn3"></div>
+
+        <div class="softBtn" id="softBtn4"></div>
+        <div class="softBtn" id="softBtn5"></div>
+        <div class="softBtn" id="softBtn6"></div>
+    </div>
+    <!-- <script src="radio.js"></script> -->
+    <script src="app.js"></script>
+</body>
